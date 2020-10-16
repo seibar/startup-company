@@ -1,0 +1,31 @@
+.requirements-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.requirement {
+	border-bottom: 1px solid gray;
+}
+
+.requirements-list .requirement {
+	padding: 7px;
+	align-items: center;
+	display: flex;
+	font-size: 14pt;
+	color: #303030;
+}
+
+.requirements-list .requirement img {
+	width: 30px;
+	margin-right: 30px;
+}
+
+.column-name {
+	flex: 50%;
+	padding-right: 30px;
+}
+
+.component-count.has-count {
+	font-weight: bold;
+}
